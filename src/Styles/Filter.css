@@ -1,0 +1,444 @@
+#fheader{
+    height: 80px;
+    position: relative;
+    background-color:#9d0e0e;
+}
+
+.edureka {
+    color: #ce0505;
+    font-size: 33px;
+    font-weight: 600;
+}
+
+
+.logo {
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    padding: 10px 25px;
+    left: 150px;
+    top: 13px;
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.login {
+
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+.account {
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid white;
+    color: white;
+
+}
+.fheading {
+    width: 512px;
+            height: 51px;
+
+            font-family: Poppins;
+            font-size: 35px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.53;
+            letter-spacing: normal;
+            text-align: left;
+            color: #192f60;
+}
+
+.filtercontainer {
+    height: 680px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.filter-options {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 3%;
+}
+.collapse-head{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    padding-top: 7px;
+    display: inline-block;
+}
+.chervon{
+    display:none;
+    float:right,
+    
+}
+
+.filter-heading {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    padding-top: 7px;
+    display: inline-block;
+}
+
+.SelectLocation {
+    height: 20px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-top: 10px;
+}
+
+
+
+.Rectangle-2236 {
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    border: solid 1px #8c96ab;
+    margin-top: 10px;
+}
+hr{
+    border: solid 1px #dedfe5;
+    margin: 1px;
+    
+}
+.subhead{
+    height: 20px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-top: 12px;
+
+}
+
+.Cuisine1 {
+    height: 20px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-top: 12px;
+}
+.cuisinecheckbox{
+    height: 20px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-top: 12px;
+
+}
+.checkbox {
+    height: 20px;
+    
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+    margin-left:10px;
+    
+}
+.checkbox1 {
+    height: 20px;
+    
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+    margin-top: 12px;
+    margin-left: 2px;
+    
+    
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    border-radius: 35px;
+    margin-left: 25%;
+}
+
+.head1{
+    height: 43px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-top: 30px;
+}
+.toggle-span {
+    float: right;
+    padding: 5px 0px 5px 0px;
+    display: none;
+}
+
+.head2 {
+    height: 23px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.head3 {
+    height: 23px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+
+.padding-left {
+    padding-left: 60px;
+}
+
+.custom-button {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 0 0 0 white;
+}
+
+.pagination{
+    display: inline-block;
+    margin-left: 275px;
+    margin-top: -3px;
+}
+.records{
+    font-size: 30px;
+    font-family: sans-serif;
+    color:red;
+    text-align: center;
+}
+.pagination-item {
+    color: gray;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: solid 1px gray;
+    border-radius: 15px;
+    margin: 2px;
+}
+
+.item {
+    width: 100%;
+    height: 500px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    margin-bottom: 15px;
+}
+
+
+.img{
+    width: 120px;
+    height: 100px;
+
+    margin: 10px;
+    float: left;
+    border-radius: 23px;
+    background-color: #ea6060;
+}
+.page-item{
+    color: gray;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: solid 1px gray;
+    border-radius: 15px;
+    margin: 2px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .item {
+        width: 100%;
+        height: 300px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+        margin-bottom: 15px;
+    }
+    .filter-options {
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+        padding-left: 30px;
+        margin-bottom: 10px;
+        min-width: 450px;
+    }
+   
+    .filter-options {
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+        padding-left: 30px;
+        margin-bottom: 10px;
+        width: 455px;
+        margin-left: 15px;
+        min-height: 25px;
+    }
+    .filtercontainer {
+        height: 680px;
+        width:70%;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    .head1{
+        height: 30px;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.53;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .head2 {
+        height: 23px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-left: 40px
+    }
+    .head3{
+        height: 43px;
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.53;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+       margin-top: 15px;
+        margin-left: 40px;
+    }
+    hr{
+        border: solid 1px #dedfe5;
+        padding:0px;
+    }
+    .Cuisine {
+        height: 20px;
+        font-family: Poppins;
+        font-size: 10px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.0;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+        margin-top: 0px;
+    }
+    
+    .checkbox {
+        height: 20px;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.0;
+        letter-spacing: normal;
+        text-align: left;
+        color: #8c96ab;
+        margin:10px;
+    }
+    .toggle-span {
+        float: right;
+        padding: 15px 0px 5px 0px;
+        display: initial;
+    }
+    .page-item{
+        color: gray;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        border: solid 1px gray;
+        border-radius: 15px;
+        margin: 2px;
+    }
+    
+    .chervon{
+        display:inline;
+        float:right
+    }
+}
