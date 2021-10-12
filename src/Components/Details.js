@@ -68,7 +68,7 @@ const customStyles = {
     
             axios({
                 method:'GET',
-                url: `http://localhost:1997/restaurant/${resId}`,
+                url: `https://secret-eyrie-41384.herokuapp.com/restaurant/${resId}`,
                 headers: { 'Content-Type': 'application/json' }
             }).then(response => {
                     this.setState({ restaurantData: response.data.restaurant,resId:resId})
@@ -80,7 +80,7 @@ const customStyles = {
         const {resId} = this.state;
         
         axios({
-            url: `http://localhost:1997/menuitems/${resId}`,
+            url: `https://secret-eyrie-41384.herokuapp.com/menuitems/${resId}`,
             method:'GET',
             headers: { 'Content-Type': 'application/json' }
         })
@@ -170,7 +170,7 @@ const customStyles = {
         }
     
         getData = (data) => {
-            return fetch(`http://localhost:1997/payment`, {
+            return fetch(`https://secret-eyrie-41384.herokuapp.com/payment`, {
                 method: "POST",
                 headers: {
                     Accept: "application/json",

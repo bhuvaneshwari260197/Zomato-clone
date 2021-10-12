@@ -30,7 +30,7 @@ class Filter extends React.Component {
     };
 
     axios({
-      url:'http://localhost:1997/filter',
+      url:'https://secret-eyrie-41384.herokuapp.com/filter',
       method:'POST',
       header:{'Content-Type':'application/json'},
       data: filterObj
@@ -42,7 +42,7 @@ class Filter extends React.Component {
 
   
   axios({
-    url:"http://localhost:1997/locations",
+    url:"https://secret-eyrie-41384.herokuapp.com/",
     method:'GET',
     header:{'Content-Type':'application/json'}
 })
@@ -64,7 +64,7 @@ class Filter extends React.Component {
 
     };
     axios({
-      url:"http://localhost:1997/filter",
+      url:"https://secret-eyrie-41384.herokuapp.com/filter",
       method:'POST',
       header:{'Content-Type':'application/json'},
       data: filterObj
@@ -91,7 +91,7 @@ class Filter extends React.Component {
 
   };
   axios({
-    url:"http://localhost:1997/filter",
+    url:"https://secret-eyrie-41384.herokuapp.com/filter",
     method:'POST',
     header:{'Content-Type':'application/json'},
     data: filterObj
@@ -118,7 +118,7 @@ handleCostChange = (lcost, hcost)=>{
 
   };
   axios({
-    url:"http://localhost:1997/filter",
+    url:"https://secret-eyrie-41384.herokuapp.com/filter",
     method:'POST',
     header:{'Content-Type':'application/json'},
     data: filterObj
@@ -143,7 +143,7 @@ handlePageChange = (page)=>{
 
   };
   axios({
-    url:"http://localhost:1997/filter",
+    url:"https://secret-eyrie-41384.herokuapp.com/filter",
     method:'POST',
     header:{'Content-Type':'application/json'},
     data: filterObj
@@ -178,7 +178,7 @@ const filterObj = {
 
 };
 axios({
-  url:"http://localhost:1997/filter",
+  url:"https://secret-eyrie-41384.herokuapp.com/filter",
   method:'POST',
   header:{'Content-Type':'application/json'},
   data: filterObj

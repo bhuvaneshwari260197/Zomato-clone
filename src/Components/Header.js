@@ -92,7 +92,7 @@ class Header extends React.Component {
         };
         axios({
             method: 'POST',
-            url: 'http://localhost:1997/user',
+            url: 'https://secret-eyrie-41384.herokuapp.com/user',
             headers: { 'Content-Type': 'application/json' },
             data: signUpObj
         })
@@ -124,7 +124,7 @@ class Header extends React.Component {
         };
         axios({
             method: 'POST',
-            url: 'http://localhost:1997/user',
+            url: 'https://secret-eyrie-41384.herokuapp.com/signup',
             headers: { 'Content-Type': 'application/json' },
             data: signUpObj
         })
@@ -208,7 +208,7 @@ style={customStyles}
                         <div class="login-heading"></div>
                         <div style={{ marginBottom: '15px' }}>
                         <FacebookLogin
-                            appId="175579314718394"
+                            appId="2818572725101054"
                             textButton="Continue with Facebook"
                             size="metro"
                             fields="name,email,picture"
